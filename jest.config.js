@@ -1,5 +1,5 @@
 module.exports = {
-  testEnvironment: "jsdom",
+  testEnvironment: "@happy-dom/jest-environment",
   collectCoverageFrom: ["packages/**/*.{ts,tsx}"],
   moduleFileExtensions: ["ts", "tsx", "js", "jsx"],
   modulePathIgnorePatterns: [
